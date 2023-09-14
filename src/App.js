@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
+        <Route path={`/`} element={<Home />} />
         <Route path="/character/:id" element={<Detail />} />
       </Routes>
     </Router>
